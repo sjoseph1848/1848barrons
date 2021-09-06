@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;1,300;1,400&family=Roboto&display=swap");
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+nav {
+  display: -ms-grid;
+  display: grid;
+}
+
+nav .logo > h4 {
+  font-family: 'Newsreader', serif;
+  font-weight: 400;
+  font-style: italic;
+  color: red;
+}
+/*# sourceMappingURL=styles.css.map */
